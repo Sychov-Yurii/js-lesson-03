@@ -540,14 +540,14 @@
 //   getBooks() {
 //     return "Returning all books";
 //   },
-//   addBook() {
-//     return "Adding book Haze";
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
 //   },
-//     removeBook() {
-//     return 'Deleting book Red sunset';
+//     removeBook(bookName) {
+//     return `Deleting book ${bookName}`;
 //   },
-//     updateBook() {
-//     return 'Updating book Sands of Dune to Dune';
+//     updateBook(oldName, newName) {
+//     return `Updating book ${oldName} to ${newName}`;
 //   },
   
 
